@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_success_rates",
+  "info": {
+    "displayName": "success-rate"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "number": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

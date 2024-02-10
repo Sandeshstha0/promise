@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_thoughts",
+  "info": {
+    "displayName": "thoughts"
+  },
+  "options": {},
+  "attributes": {
+    "review": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

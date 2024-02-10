@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "introduction": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.introduction"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "points": {
+      "type": "blocks"
+    },
+    "review": {
+      "displayName": "thoughts",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.thoughts"
+    },
+    "rate": {
+      "displayName": "success-rate",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.success-rate"
+    },
+    "partners": {
+      "displayName": "partners",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.partners"
+    },
+    "questions": {
+      "displayName": "questions",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.questions"
+    }
+  }
+}
